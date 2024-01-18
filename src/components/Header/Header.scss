@@ -1,0 +1,28 @@
+.header_wrapper {
+    background: orange;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    border-radius: 15px;
+
+   .left_bar {
+    display: flex;
+   }
+
+   .right_bar {
+    display: flex;
+
+    .list_wrapper {
+        display: flex;
+
+
+    .list_item {
+        margin-right: 15px;
+        }
+        .list_item + .list_item {
+            margin-right: 15px;
+        }
+    }
+   }
+}
